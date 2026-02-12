@@ -1,6 +1,6 @@
 FROM ubuntu:noble-20251013
 
-ARG ASTERISK_SOURCE_VERSION=20.17.0
+ARG ASTERISK_SOURCE_VERSION=20.18.2
 
 # download needed packages
 RUN apt-get update && apt-get install -y --no-install-recommends \
